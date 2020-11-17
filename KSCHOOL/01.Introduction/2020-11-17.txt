@@ -1,0 +1,733 @@
+sudo echo echo
+sduo su
+sudo su
+jdoa
+clear
+echo Hello world
+echo "Hello world"
+echo Hello ; echo hello2
+echo "Hello ; echo hello2"
+echo 'Hello ; echo hello2'
+echo $SHELL
+echo "$SHELL"
+echo "$shell"
+echo '$SHELL'
+echo `date`
+date
+echo "$(date)"
+SHELL=HELLO
+echo $SHELL
+history
+gedit .history
+echo $SHELL
+echo "hola hola $(date)"
+echo `hola hola date`
+echo `date`
+echo `echo $date`
+echo $date
+echo `echo $(date)`
+echo $(date)
+clear
+echo 'this is\
+another "\
+one'
+echo "this is\
+double "
+echo "this is\
+single '\
+"
+echo "world \\
+is on the same line"
+echo "lkjl
+echo "This is \n new line"
+echo "This is \nnew line\
+"
+echo "This is \t new line"
+echo "This is \\ new line"
+echo this ; echo that
+echo this \; echo that
+echo this \;\ echo that
+echo "this is text with " comillas dobles"\
+"
+echo "this is text with \" comillas dobles"
+echo " this dollar sign $"
+echo " this dollar sign \$"
+echo " this dollar sign $SHELL"
+echo " this dollar sign \$SHELL"
+echo "this is dollar ; $SHELL"
+echo this is dollar ; $SHELL
+cat /proc/cpuinfo
+cat /etc/os-release
+clear
+cd Data/shell
+cd
+cd Data/shell
+cd ../
+cd shell
+cd .
+cd ..
+cd shell
+cd -
+cd shell
+bash
+cd ../
+cd -
+cd
+exit
+cat Text_example.txt
+cat -n Text_example.txt
+clear
+cat -n Text_example.txt Text_example.txt Text_example.txt
+gedit Text_example.txt
+cat Data/shell/Text_example.txt
+cd
+cat Data/shell/Text_example.txt
+cat
+cat books
+cat books/Data_Algorithms.pdf
+clear
+cat ./Data/shell/Text_example.txt
+cd Data
+cat ~/Data/shell/Text_example.txt
+cat ./Data/shell/Text_example.txt
+pwd
+cd
+pwd
+cat /home/dsc/Data/shell/Text_example.txt
+cat -n /home/dsc/Data/shell/Text_example.txt
+cat -n -s /home/dsc/Data/shell/Text_example.txt
+cat -n -S /home/dsc/Data/shell/Text_example.txt
+cat -s -n /home/dsc/Data/shell/Text_example.txt
+ls
+cd Data/challenge
+ls
+cd
+ls Documents
+ls anaconda3
+cd anaconda3
+ls -1
+ls -s
+ls -s1
+ls -1 -s
+cd
+ls -a
+cd ./
+cd .emacs.d/ls
+cd .emacs.d/
+ls
+ls -1
+ls -l
+ls -la
+cd
+ls -la
+ls
+cd ../
+ls
+ls -a
+ls
+cd
+ls Data
+ls -l Data/README.md
+ls -l Data/README.md Data/shell/Text_example.txt
+ls Data/README.md Data/shell/Text_example.txt -l
+ls -l Data/README.md Data/shell/Text_example.txt -l
+ls -aS
+ls -aSl
+ls -aSr
+ls -aSrl
+ls -atrl
+ls -atl
+history
+ls -al
+touch file00
+ls file00
+ls -l file00
+chmod u+x,g-w,o+w file00
+ls -l file00
+rwx = 101 = 2(2)*1 + 2(1)*0 + 2(0)*1 = 5
+chmod 777 file00
+ls -l file00
+chmod 770 file00
+ls -l file00
+chmod g+w file00
+chmod g-w file00
+mkdir my_first_dir
+ls -l
+ls -tl
+ls -trl
+mkdir my_first_dir
+mkdir my_first_dir2 my_first_dir3
+mkdir -p my_second_dir/uno
+ls -l
+rm file00
+ls -l
+rm my first_dir
+rm my_first_dir
+rm -r my_first_dir
+rm -r my_first_dir2
+rm -rf my_first_dir2
+ls -l
+makedir my_first_dir
+mkdir my_first_dir
+ls
+touch fichero2 fichero3
+ls
+rm fichero3
+cp fichero2 fichero3
+ls
+rm -r my_second_dir
+ls
+rm -rf my_first_dir
+ls
+rm -r my_first_dir3
+ls
+mkdir  my_first_dir
+ls
+cp my_first_dir my_first_copy -r
+ls
+cp my_first_dir my_first_copy2 -r
+mv fichero2 fichero_moved
+ls
+mv my_first_copy my_moved_dir
+ls
+mv fichero3 fichero_moved my_moved_dir/
+ls
+ls my_moved_dir
+mkdir first_dir
+ls
+cd first_dir
+ls
+touch text_file.txt
+chmod g+x
+chmod
+chmod g+x,o+w
+history
+chmod g+x,o+w text_file.txt
+ls -l text_file.txt
+mkdir sub1 sub2 text_file
+cp text_file.txt sub1
+cd sub1
+ls
+cd -
+mv text_file.txt text_file.txt.2 sub2
+mv text_file.txt text_file.txt.2
+mv text_file.txt sub2
+cp text_file.txt sub2
+ls
+cd sub1
+ls
+cd -
+cp sub1/text_file.txt first_dir
+ls
+cd sub1
+ls
+cd -
+rm first_dir
+ls
+cd sub1
+cp text_file.txt text_file.txt.2
+ls
+mv text_file.txt.2 first_dir/test_file.txt.2
+mv text_file.txt.2 ./first_dir
+ls
+mv first_dir text_file.txt.2
+mv text_file.txt.2 first_dir/text_file.txt.2
+cd -
+ls
+cd sub1
+ls
+rm text_file.txt.2
+ls
+cd -
+ls
+touch text_file.txt.2
+ls
+mv text_file.txt.2 sub2/text_file.txt.2
+ls
+sub2
+cd sub2
+ls
+cp -r sub1 sub3
+ls
+cd -
+ls
+cp -r sub1 sub3
+ls
+mv sub2/text_file.txt.2 sub2/text_file.txt.backup
+ls
+ls sub2
+mv sub2/text_file.txt.backup ./.text_file.txt.backup
+ls sub2
+rm -r sub2
+ls
+ls .
+cd .
+ls
+ls -a
+chmod g+x,o+w .text_file.txt.backup
+ls
+ls -1la
+cat .history > 2020-11-11.txt
+cd
+cat .history > 2020-11-11.txt
+cat gitconfig
+cd Desktop/KSCHOOL
+ls
+cd 01.\ Introduction
+ls
+getid 2020-11-11.txt
+cat 2020-11-11.txt
+gedit 2020-11-11.txt
+git init
+git config
+git add 1.Introduction
+cd
+j
+cd
+git config --global user.name "caresppen"
+git config --global user.email "caespe_95@hotmail.com"
+exit
+>q
+\:q
+clear
+cd
+ls
+mkdir first_dir
+touch first_dir/text_file.txt
+ls
+cd first_dir
+ls
+chmod g+x,o+w text_file.txt
+ls
+mkdir sub1 sub2 text_file
+cp text_file.txt sub1/
+ls
+ls sub1
+cp text_file.txt sub1
+ls sub1
+ls
+mv text_file.txt sub2/text_file.txt.2
+ls sub2
+ls
+cp sub1 sub3
+cp -r sub1 sub3
+ls sub3
+mv sub2/text_file.txt.2 sub2/text_file.txt.backup
+ls sub2
+mv sub2/text_file.txt.backup /.text_file.txt.backup
+ls
+ls -a
+ls sub2 -a
+mv sub2/text_file.txt.backup first_dir/.text_file.txt.backup
+mv sub2/text_file.txt.backup first_dir//.text_file.txt.backup
+ls sub2
+mv sub2/text_file.txt.backup ./.text_file.txt.backup
+ls -a
+ls sub2
+rm sub2
+rm -r sub2
+ls -a
+ls -a1l
+cat .history > 2020-11-11_Exercise.txt
+.history
+cd
+cat .history > 2020-11-11_Exercise.txt
+ls
+mv 2020-11-11_Exercise.txt Desktop/KSCHOOL/01.\ Introduction
+shutdown -f
+pwd
+mkdir git
+ls -lrt
+cd git
+echo "# shell"
+echo "# shell" >> README.md
+ls
+cat README.md
+git init
+git config --get user.name
+git config --get user.email
+clear
+ll
+11
+git add README.md
+git status
+git commit -m touch kk.txt
+touch kk.txt
+git status
+ls -lrt
+git commit -m "first commit adding README.md"
+git branch -M main
+git branch -M master
+git remote add origin https://github.com/caresppen/shell.git
+git push -u origin master
+clear
+vim
+vim README.md
+git add README.md
+git commit -m "README.md edited"
+git push origin master
+git config --global credential.helper store
+man bash
+cd
+ls
+cd Data
+ls
+ls -lrt
+cd us_dot
+ls -lrt
+cd otp
+ls -lrt
+cd ..
+ls -lrt
+cd opentraveldata
+ls -lrt
+head optd_airlines.csv
+tail -n 1 optd_airlines.csv
+less optd_airlines.csv
+cd
+cd Data
+cd shell
+ls
+ls -lrt
+less Finn.txt
+cd
+cd Data/opentraveldata/
+ls
+less optd_aircraft.csv
+which bash
+cd
+which whoami
+whoami
+ll
+bash
+ll
+exit
+ll
+which ll
+exit
+which ll
+which python
+type bash
+whereis bash
+echo $PATH
+history > 2020-11-12.txt
+ls
+mv 2020-11-12.txt Desktop/KSCHOOL
+echo "Hola mundo"
+echo "Hola mundo" > pp.txt
+ls
+echo "Hola mundo" >> pp.txt
+head pp.txt
+echo "Adios mundo cruel" > pp.txt
+head pp.txt
+cat pp2.txt
+clear
+/pp2.txt
+echo /pp2.txt
+gedit pp3.txt
+ll
+vim pp3.txt
+clear
+$HISTFILE
+echo $HISTFILE
+$HISTFILE
+gedit .history
+tail -n 3 /home/dsc/.history
+tail -n 5 /home/dsc/.history
+less pp.text
+less pp3.text
+ls
+less pp3.txt
+ll
+ll a
+-lsa
+echo -lsa
+ls -lsa
+clear
+ls -lsa $HISTFILE
+ll $HISTFILE
+mv .history Desktop/Home/git
+mv $HISTFILE Desktop/Home/git
+ls
+cp $HISTFILE Desktop/Home/git
+cd Desktop
+ls
+cd
+ls
+clear
+cp .history /git
+ls
+cp .history git
+ls
+cd git
+ls
+ls -la
+rm .history
+ls -la
+cd ..
+clear
+mkdir folder1 folder2
+ls
+touch folder1/one
+touch folder2/two
+rsync -avz folder1/one folder2
+ll folder2
+ll folder1
+echo "first line" >> folder1/one
+head folder1/one
+head folder2/one
+rsync -avz folder1/one folder2
+clear
+touch folder1/oneB
+rsync -avz folder1/one folder2
+ll folder2
+touch folder2/three
+ll folder2
+ll folder1
+rsync -avz folder1 folder2
+ll folder1
+ll
+clear
+ll folder2
+rm folder2/folder1
+rm -r folder2/folder1
+ll folder2
+sync -avz folder1/ folder2
+rsync -avz folder1/ folder2
+ll folder2
+clear
+cp .history git > 2020-11-17.txt
+ls -lsa
+clear
+ll git
+ls -lsa git
+gedit .history
+history
+clear
+history > git/2020-11-17.txt
+cd git
+ll
+ls -lsa
+rm .history
+ls -lsa
+cd ..
+clear
+ll git
+clea
+clear
+ll
+clear
+mv KSCHOOL git
+ll
+ll git
+clear
+ll git/KSCHOOL
+git status
+clear
+cd git
+clear
+ls -a
+cat .git
+gedit .git
+clear
+cd .git
+ls
+cd
+cd git
+clear
+ls
+git status
+git add 2020-11-17.txt
+git status
+git -m commit "My first history"
+git push origin master
+git config credential.helper store
+git push origin master
+clear
+cd ..
+cd Data
+cd shell
+ll
+wc Text_example.txt
+head -n 8 Text_example.txt
+wc "Hello world"
+clear
+echo "Hello World" | wc
+echo -n "Hello World" | wc
+cat Text_example.txt | wc
+cat Text_example.txt | wc -|\
+exit
+cd Data
+cd shell
+cat Text_example.txt
+cat Text_example.txt | wc -|\
+\
+wc Text_example.txt
+tail -c -1k optd_aircraft.csv|wc
+head -c 1K optd_aircraft.csv | wc
+ls
+cd .
+cd ..
+ls
+cd opentraveldata
+ls
+head -c 1K optd_aircraft.csv | wc
+cd ..
+ls -sSlr opentraveldata | tail -n 1 > largest_file.txt
+cd ..
+mv Data/largest_file.txt largest_file.txt
+ls
+cat largest_file.txt
+cd Data
+ls
+cd shell
+ls
+wc Finn.txt
+head -n Finn.txt | wc
+head -5 Finn.txt | wc
+cat Text_example.txt | head -3
+cat -n Text_example.txt | head -3
+head -5 Finn.txt | wc -w
+cd
+cat -n Data/shell/Text_example.txt | head -3 > Text_example_rows.txt
+cat Text_example_rows.txt
+cp Data/shell/Text_example.txt Text_example.txt
+ls
+wc Text_example.txt
+cp Data/shell/Text_example.txt >> Text_example.txt
+Text_example.txt >> Text_example.txt
+cp Text_example.txt >> Text_example.txt
+cp Text_example.txt Text_example.txt
+cp Text_example.txt >> Text_example.txt
+gedit .history
+cat Text_example.txt >> Text_example.txt
+cat Data/shell/Text_example.txt >> Text_example.txt
+wc Text_example.txt
+clear
+history | grep rsync
+cat ~/.history | grep rsync
+cat ~/.history | grep release
+cat ~/.history | grep rsync
+rsync -avz folder1 folder2
+ll folder2
+rm -r folder1
+ll folder1
+clear
+timestamp
+cat ~/.history | grep time
+cat ~/.history | grep stamp
+cat ~/.history | grep date
+date
+cat ~/.history | grep user
+user.name
+clear
+whoami
+echo "This file was created by " + whoami + " on: " + date > timestamp_user.txt
+cat timestamp_user.txt
+echo "This file was created by " whoami " on: " date > timestamp_user.txt
+cat timestamp_user.txt
+echo "This file was created by " $whoami " on: " $date > timestamp_user.txt
+cat timestamp_user.txt
+echo "This file was created by " $(whoami) " on: " $(date) > timestamp_user.txt
+cat timestamp_user.txt
+echo "This file was created by" $(whoami) " on:" $(date) > timestamp_user.txt
+cat timestamp_user.txt
+echo "This file was created by" $(whoami) "on:" $(date) > timestamp_user.txt
+cat timestamp_user.txt
+clear
+cat ~/.history | tail -n 20 > last_20_history.txt
+cat last_20_history.txt
+clear
+find Text_example.txt
+location Text_example.txt
+clear
+cat Data/shell/Text_example.tx
+cat Data/shell/Text_example.txt
+cat Data/shell/Text_example.txt | head -n+2 tail -n+3
+cat Data/shell/Text_example.txt | head -n+2 | tail -n+3
+cat Data/shell/Text_example.txt | head -n+2
+cat Data/shell/Text_example.txt | head -n-2
+cat Data/shell/Text_example.txt | head -n+3
+cat Data/shell/Text_example.txt | tail -n+2
+cat Data/shell/Text_example.txt | tail -n+3
+cat Data/shell/Text_example.txt | tail -n+3 | head -n+4
+cat Data/shell/Text_example.txt | tail -n+3 | head -n 2
+clear
+wc man
+man wc
+wc -l Data/opentraveldata/optd_aircraft.csv
+cat Data/opentraveldata/optd_aircraft.csv | wc -l
+clear
+cp $HISTFILE git/2020-11-17.txt
+cd git
+mv 2020-11-17.txt KSCHOOL/01.\ Introduction
+ll KSCHOOL/01.\ Introduction
+ls
+git add KSCHOOL/
+git -m commit "New course folder"
+git push origin master
+git status
+pwd
+ls
+git remote add origin https://github.com/caresppen/KSCHOOL.git
+origin
+remote origin
+git remote set-url origin https://github.com/caresppen/KSCHOOL.git
+ls
+cd KSCHOOL
+ls
+git add .
+git status
+ls
+ls -la
+cd 01.\ Introduction
+ls
+git reset
+git status
+ls
+git add .
+git status
+cd ..
+ls
+git reset
+git add .
+git status
+git -m commit "Add Introduction section"
+git push origin master
+git status
+git push origin master
+git status
+git push origin master
+git status
+clear
+git status
+git add .
+git status
+git -m commit "Add Introduction section"
+git commit -m "Add Introduction section"
+git push origin master
+git rm KSCHOOL
+git rm KSCHOOL/
+ls
+git rm 01.\ Introduction/
+git rm -r 01.\ Introduction/
+git commit -m "Deleting files"
+git status
+cd ..
+git status
+git reset
+git rm -r KSCHOOL/
+git commit -m "Removing files"
+git push origin master
+cd 
+cd git
+ls
+cat ~/.history | grep rm
+mkdir KSCHOOL
+LS
+ls
+cd KSCHOOL
+mkdir 01.Introduction
+ls
+cd 01.Introduction
+cat ~/.history > 2020-11-17.txt
