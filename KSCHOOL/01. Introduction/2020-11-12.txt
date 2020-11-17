@@ -1,0 +1,16 @@
+  387  ls
+  388  less optd_aircraft.csv
+  389  which bash
+  390  cd
+  391  which whoami
+  392  whoami
+  393  ll
+  394  bash
+  395  ll
+  396  which ll
+  397  exit
+  398  which ll
+  399  which python
+  400  type bash
+  401  whereis bash
+  402  echo $PATH

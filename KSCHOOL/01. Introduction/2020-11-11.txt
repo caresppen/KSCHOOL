@@ -1,0 +1,272 @@
+sudo echo echo
+sduo su
+sudo su
+jdoa
+clear
+echo Hello world
+echo "Hello world"
+echo Hello ; echo hello2
+echo "Hello ; echo hello2"
+echo 'Hello ; echo hello2'
+echo $SHELL
+echo "$SHELL"
+echo "$shell"
+echo '$SHELL'
+echo `date`
+date
+echo "$(date)"
+SHELL=HELLO
+echo $SHELL
+history
+gedit .history
+echo $SHELL
+echo "hola hola $(date)"
+echo `hola hola date`
+echo `date`
+echo `echo $date`
+echo $date
+echo `echo $(date)`
+echo $(date)
+clear
+echo 'this is\
+another "\
+one'
+echo "this is\
+double "
+echo "this is\
+single '\
+"
+echo "world \\
+is on the same line"
+echo "lkjl
+echo "This is \n new line"
+echo "This is \nnew line\
+"
+echo "This is \t new line"
+echo "This is \\ new line"
+echo this ; echo that
+echo this \; echo that
+echo this \;\ echo that
+echo "this is text with " comillas dobles"\
+"
+echo "this is text with \" comillas dobles"
+echo " this dollar sign $"
+echo " this dollar sign \$"
+echo " this dollar sign $SHELL"
+echo " this dollar sign \$SHELL"
+echo "this is dollar ; $SHELL"
+echo this is dollar ; $SHELL
+cat /proc/cpuinfo
+cat /etc/os-release
+clear
+cd Data/shell
+cd
+cd Data/shell
+cd ../
+cd shell
+cd .
+cd ..
+cd shell
+cd -
+cd shell
+bash
+cd ../
+cd -
+cd
+exit
+cat Text_example.txt
+cat -n Text_example.txt
+clear
+cat -n Text_example.txt Text_example.txt Text_example.txt
+gedit Text_example.txt
+cat Data/shell/Text_example.txt
+cd
+cat Data/shell/Text_example.txt
+cat
+cat books
+cat books/Data_Algorithms.pdf
+clear
+cat ./Data/shell/Text_example.txt
+cd Data
+cat ~/Data/shell/Text_example.txt
+cat ./Data/shell/Text_example.txt
+pwd
+cd
+pwd
+cat /home/dsc/Data/shell/Text_example.txt
+cat -n /home/dsc/Data/shell/Text_example.txt
+cat -n -s /home/dsc/Data/shell/Text_example.txt
+cat -n -S /home/dsc/Data/shell/Text_example.txt
+cat -s -n /home/dsc/Data/shell/Text_example.txt
+ls
+cd Data/challenge
+ls
+cd
+ls Documents
+ls anaconda3
+cd anaconda3
+ls -1
+ls -s
+ls -s1
+ls -1 -s
+cd
+ls -a
+cd ./
+cd .emacs.d/ls
+cd .emacs.d/
+ls
+ls -1
+ls -l
+ls -la
+cd
+ls -la
+ls
+cd ../
+ls
+ls -a
+ls
+cd
+ls Data
+ls -l Data/README.md
+ls -l Data/README.md Data/shell/Text_example.txt
+ls Data/README.md Data/shell/Text_example.txt -l
+ls -l Data/README.md Data/shell/Text_example.txt -l
+ls -aS
+ls -aSl
+ls -aSr
+ls -aSrl
+ls -atrl
+ls -atl
+history
+ls -al
+touch file00
+ls file00
+ls -l file00
+chmod u+x,g-w,o+w file00
+ls -l file00
+rwx = 101 = 2(2)*1 + 2(1)*0 + 2(0)*1 = 5
+chmod 777 file00
+ls -l file00
+chmod 770 file00
+ls -l file00
+chmod g+w file00
+chmod g-w file00
+mkdir my_first_dir
+ls -l
+ls -tl
+ls -trl
+mkdir my_first_dir
+mkdir my_first_dir2 my_first_dir3
+mkdir -p my_second_dir/uno
+ls -l
+rm file00
+ls -l
+rm my first_dir
+rm my_first_dir
+rm -r my_first_dir
+rm -r my_first_dir2
+rm -rf my_first_dir2
+ls -l
+makedir my_first_dir
+mkdir my_first_dir
+ls
+touch fichero2 fichero3
+ls
+rm fichero3
+cp fichero2 fichero3
+ls
+rm -r my_second_dir
+ls
+rm -rf my_first_dir
+ls
+rm -r my_first_dir3
+ls
+mkdir  my_first_dir
+ls
+cp my_first_dir my_first_copy -r
+ls
+cp my_first_dir my_first_copy2 -r
+mv fichero2 fichero_moved
+ls
+mv my_first_copy my_moved_dir
+ls
+mv fichero3 fichero_moved my_moved_dir/
+ls
+ls my_moved_dir
+mkdir first_dir
+ls
+cd first_dir
+ls
+touch text_file.txt
+chmod g+x
+chmod
+chmod g+x,o+w
+history
+chmod g+x,o+w text_file.txt
+ls -l text_file.txt
+mkdir sub1 sub2 text_file
+cp text_file.txt sub1
+cd sub1
+ls
+cd -
+mv text_file.txt text_file.txt.2 sub2
+mv text_file.txt text_file.txt.2
+mv text_file.txt sub2
+cp text_file.txt sub2
+ls
+cd sub1
+ls
+cd -
+cp sub1/text_file.txt first_dir
+ls
+cd sub1
+ls
+cd -
+rm first_dir
+ls
+cd sub1
+cp text_file.txt text_file.txt.2
+ls
+mv text_file.txt.2 first_dir/test_file.txt.2
+mv text_file.txt.2 ./first_dir
+ls
+mv first_dir text_file.txt.2
+mv text_file.txt.2 first_dir/text_file.txt.2
+cd -
+ls
+cd sub1
+ls
+rm text_file.txt.2
+ls
+cd -
+ls
+touch text_file.txt.2
+ls
+mv text_file.txt.2 sub2/text_file.txt.2
+ls
+sub2
+cd sub2
+ls
+cp -r sub1 sub3
+ls
+cd -
+ls
+cp -r sub1 sub3
+ls
+mv sub2/text_file.txt.2 sub2/text_file.txt.backup
+ls
+ls sub2
+mv sub2/text_file.txt.backup ./.text_file.txt.backup
+ls sub2
+rm -r sub2
+ls
+ls .
+cd .
+ls
+ls -a
+chmod g+x,o+w .text_file.txt.backup
+ls
+ls -1la
+cat .history > 2020-11-11.txt
+cd
+cat .history > 2020-11-11.txt

@@ -1,0 +1,42 @@
+cd
+ls
+mkdir first_dir
+touch first_dir/text_file.txt
+ls
+cd first_dir
+ls
+chmod g+x,o+w text_file.txt
+ls
+mkdir sub1 sub2 text_file
+cp text_file.txt sub1/
+ls
+ls sub1
+cp text_file.txt sub1
+ls sub1
+ls
+mv text_file.txt sub2/text_file.txt.2
+ls sub2
+ls
+cp sub1 sub3
+cp -r sub1 sub3
+ls sub3
+mv sub2/text_file.txt.2 sub2/text_file.txt.backup
+ls sub2
+mv sub2/text_file.txt.backup /.text_file.txt.backup
+ls
+ls -a
+ls sub2 -a
+mv sub2/text_file.txt.backup first_dir/.text_file.txt.backup
+mv sub2/text_file.txt.backup first_dir//.text_file.txt.backup
+ls sub2
+mv sub2/text_file.txt.backup ./.text_file.txt.backup
+ls -a
+ls sub2
+rm sub2
+rm -r sub2
+ls -a
+ls -a1l
+cat .history > 2020-11-11_Exercise.txt
+.history
+cd
+cat .history > 2020-11-11_Exercise.txt
