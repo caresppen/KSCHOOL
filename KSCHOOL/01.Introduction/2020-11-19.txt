@@ -1,0 +1,1352 @@
+sudo echo echo
+sduo su
+sudo su
+jdoa
+clear
+echo Hello world
+echo "Hello world"
+echo Hello ; echo hello2
+echo "Hello ; echo hello2"
+echo 'Hello ; echo hello2'
+echo $SHELL
+echo "$SHELL"
+echo "$shell"
+echo '$SHELL'
+echo `date`
+date
+echo "$(date)"
+SHELL=HELLO
+echo $SHELL
+history
+gedit .history
+echo $SHELL
+echo "hola hola $(date)"
+echo `hola hola date`
+echo `date`
+echo `echo $date`
+echo $date
+echo `echo $(date)`
+echo $(date)
+clear
+echo 'this is\
+another "\
+one'
+echo "this is\
+double "
+echo "this is\
+single '\
+"
+echo "world \\
+is on the same line"
+echo "lkjl
+echo "This is \n new line"
+echo "This is \nnew line\
+"
+echo "This is \t new line"
+echo "This is \\ new line"
+echo this ; echo that
+echo this \; echo that
+echo this \;\ echo that
+echo "this is text with " comillas dobles"\
+"
+echo "this is text with \" comillas dobles"
+echo " this dollar sign $"
+echo " this dollar sign \$"
+echo " this dollar sign $SHELL"
+echo " this dollar sign \$SHELL"
+echo "this is dollar ; $SHELL"
+echo this is dollar ; $SHELL
+cat /proc/cpuinfo
+cat /etc/os-release
+clear
+cd Data/shell
+cd
+cd Data/shell
+cd ../
+cd shell
+cd .
+cd ..
+cd shell
+cd -
+cd shell
+bash
+cd ../
+cd -
+cd
+exit
+cat Text_example.txt
+cat -n Text_example.txt
+clear
+cat -n Text_example.txt Text_example.txt Text_example.txt
+gedit Text_example.txt
+cat Data/shell/Text_example.txt
+cd
+cat Data/shell/Text_example.txt
+cat
+cat books
+cat books/Data_Algorithms.pdf
+clear
+cat ./Data/shell/Text_example.txt
+cd Data
+cat ~/Data/shell/Text_example.txt
+cat ./Data/shell/Text_example.txt
+pwd
+cd
+pwd
+cat /home/dsc/Data/shell/Text_example.txt
+cat -n /home/dsc/Data/shell/Text_example.txt
+cat -n -s /home/dsc/Data/shell/Text_example.txt
+cat -n -S /home/dsc/Data/shell/Text_example.txt
+cat -s -n /home/dsc/Data/shell/Text_example.txt
+ls
+cd Data/challenge
+ls
+cd
+ls Documents
+ls anaconda3
+cd anaconda3
+ls -1
+ls -s
+ls -s1
+ls -1 -s
+cd
+ls -a
+cd ./
+cd .emacs.d/ls
+cd .emacs.d/
+ls
+ls -1
+ls -l
+ls -la
+cd
+ls -la
+ls
+cd ../
+ls
+ls -a
+ls
+cd
+ls Data
+ls -l Data/README.md
+ls -l Data/README.md Data/shell/Text_example.txt
+ls Data/README.md Data/shell/Text_example.txt -l
+ls -l Data/README.md Data/shell/Text_example.txt -l
+ls -aS
+ls -aSl
+ls -aSr
+ls -aSrl
+ls -atrl
+ls -atl
+history
+ls -al
+touch file00
+ls file00
+ls -l file00
+chmod u+x,g-w,o+w file00
+ls -l file00
+rwx = 101 = 2(2)*1 + 2(1)*0 + 2(0)*1 = 5
+chmod 777 file00
+ls -l file00
+chmod 770 file00
+ls -l file00
+chmod g+w file00
+chmod g-w file00
+mkdir my_first_dir
+ls -l
+ls -tl
+ls -trl
+mkdir my_first_dir
+mkdir my_first_dir2 my_first_dir3
+mkdir -p my_second_dir/uno
+ls -l
+rm file00
+ls -l
+rm my first_dir
+rm my_first_dir
+rm -r my_first_dir
+rm -r my_first_dir2
+rm -rf my_first_dir2
+ls -l
+makedir my_first_dir
+mkdir my_first_dir
+ls
+touch fichero2 fichero3
+ls
+rm fichero3
+cp fichero2 fichero3
+ls
+rm -r my_second_dir
+ls
+rm -rf my_first_dir
+ls
+rm -r my_first_dir3
+ls
+mkdir  my_first_dir
+ls
+cp my_first_dir my_first_copy -r
+ls
+cp my_first_dir my_first_copy2 -r
+mv fichero2 fichero_moved
+ls
+mv my_first_copy my_moved_dir
+ls
+mv fichero3 fichero_moved my_moved_dir/
+ls
+ls my_moved_dir
+mkdir first_dir
+ls
+cd first_dir
+ls
+touch text_file.txt
+chmod g+x
+chmod
+chmod g+x,o+w
+history
+chmod g+x,o+w text_file.txt
+ls -l text_file.txt
+mkdir sub1 sub2 text_file
+cp text_file.txt sub1
+cd sub1
+ls
+cd -
+mv text_file.txt text_file.txt.2 sub2
+mv text_file.txt text_file.txt.2
+mv text_file.txt sub2
+cp text_file.txt sub2
+ls
+cd sub1
+ls
+cd -
+cp sub1/text_file.txt first_dir
+ls
+cd sub1
+ls
+cd -
+rm first_dir
+ls
+cd sub1
+cp text_file.txt text_file.txt.2
+ls
+mv text_file.txt.2 first_dir/test_file.txt.2
+mv text_file.txt.2 ./first_dir
+ls
+mv first_dir text_file.txt.2
+mv text_file.txt.2 first_dir/text_file.txt.2
+cd -
+ls
+cd sub1
+ls
+rm text_file.txt.2
+ls
+cd -
+ls
+touch text_file.txt.2
+ls
+mv text_file.txt.2 sub2/text_file.txt.2
+ls
+sub2
+cd sub2
+ls
+cp -r sub1 sub3
+ls
+cd -
+ls
+cp -r sub1 sub3
+ls
+mv sub2/text_file.txt.2 sub2/text_file.txt.backup
+ls
+ls sub2
+mv sub2/text_file.txt.backup ./.text_file.txt.backup
+ls sub2
+rm -r sub2
+ls
+ls .
+cd .
+ls
+ls -a
+chmod g+x,o+w .text_file.txt.backup
+ls
+ls -1la
+cat .history > 2020-11-11.txt
+cd
+cat .history > 2020-11-11.txt
+cat gitconfig
+cd Desktop/KSCHOOL
+ls
+cd 01.\ Introduction
+ls
+getid 2020-11-11.txt
+cat 2020-11-11.txt
+gedit 2020-11-11.txt
+git init
+git config
+git add 1.Introduction
+cd
+j
+cd
+git config --global user.name "caresppen"
+git config --global user.email "caespe_95@hotmail.com"
+exit
+>q
+\:q
+clear
+cd
+ls
+mkdir first_dir
+touch first_dir/text_file.txt
+ls
+cd first_dir
+ls
+chmod g+x,o+w text_file.txt
+ls
+mkdir sub1 sub2 text_file
+cp text_file.txt sub1/
+ls
+ls sub1
+cp text_file.txt sub1
+ls sub1
+ls
+mv text_file.txt sub2/text_file.txt.2
+ls sub2
+ls
+cp sub1 sub3
+cp -r sub1 sub3
+ls sub3
+mv sub2/text_file.txt.2 sub2/text_file.txt.backup
+ls sub2
+mv sub2/text_file.txt.backup /.text_file.txt.backup
+ls
+ls -a
+ls sub2 -a
+mv sub2/text_file.txt.backup first_dir/.text_file.txt.backup
+mv sub2/text_file.txt.backup first_dir//.text_file.txt.backup
+ls sub2
+mv sub2/text_file.txt.backup ./.text_file.txt.backup
+ls -a
+ls sub2
+rm sub2
+rm -r sub2
+ls -a
+ls -a1l
+cat .history > 2020-11-11_Exercise.txt
+.history
+cd
+cat .history > 2020-11-11_Exercise.txt
+ls
+mv 2020-11-11_Exercise.txt Desktop/KSCHOOL/01.\ Introduction
+shutdown -f
+pwd
+mkdir git
+ls -lrt
+cd git
+echo "# shell"
+echo "# shell" >> README.md
+ls
+cat README.md
+git init
+git config --get user.name
+git config --get user.email
+clear
+ll
+11
+git add README.md
+git status
+git commit -m touch kk.txt
+touch kk.txt
+git status
+ls -lrt
+git commit -m "first commit adding README.md"
+git branch -M main
+git branch -M master
+git remote add origin https://github.com/caresppen/shell.git
+git push -u origin master
+clear
+vim
+vim README.md
+git add README.md
+git commit -m "README.md edited"
+git push origin master
+git config --global credential.helper store
+man bash
+cd
+ls
+cd Data
+ls
+ls -lrt
+cd us_dot
+ls -lrt
+cd otp
+ls -lrt
+cd ..
+ls -lrt
+cd opentraveldata
+ls -lrt
+head optd_airlines.csv
+tail -n 1 optd_airlines.csv
+less optd_airlines.csv
+cd
+cd Data
+cd shell
+ls
+ls -lrt
+less Finn.txt
+cd
+cd Data/opentraveldata/
+ls
+less optd_aircraft.csv
+which bash
+cd
+which whoami
+whoami
+ll
+bash
+ll
+exit
+ll
+which ll
+exit
+which ll
+which python
+type bash
+whereis bash
+echo $PATH
+history > 2020-11-12.txt
+ls
+mv 2020-11-12.txt Desktop/KSCHOOL
+echo "Hola mundo"
+echo "Hola mundo" > pp.txt
+ls
+echo "Hola mundo" >> pp.txt
+head pp.txt
+echo "Adios mundo cruel" > pp.txt
+head pp.txt
+cat pp2.txt
+clear
+/pp2.txt
+echo /pp2.txt
+gedit pp3.txt
+ll
+vim pp3.txt
+clear
+$HISTFILE
+echo $HISTFILE
+$HISTFILE
+gedit .history
+tail -n 3 /home/dsc/.history
+tail -n 5 /home/dsc/.history
+less pp.text
+less pp3.text
+ls
+less pp3.txt
+ll
+ll a
+-lsa
+echo -lsa
+ls -lsa
+clear
+ls -lsa $HISTFILE
+ll $HISTFILE
+mv .history Desktop/Home/git
+mv $HISTFILE Desktop/Home/git
+ls
+cp $HISTFILE Desktop/Home/git
+cd Desktop
+ls
+cd
+ls
+clear
+cp .history /git
+ls
+cp .history git
+ls
+cd git
+ls
+ls -la
+rm .history
+ls -la
+cd ..
+clear
+mkdir folder1 folder2
+ls
+touch folder1/one
+touch folder2/two
+rsync -avz folder1/one folder2
+ll folder2
+ll folder1
+echo "first line" >> folder1/one
+head folder1/one
+head folder2/one
+rsync -avz folder1/one folder2
+clear
+touch folder1/oneB
+rsync -avz folder1/one folder2
+ll folder2
+touch folder2/three
+ll folder2
+ll folder1
+rsync -avz folder1 folder2
+ll folder1
+ll
+clear
+ll folder2
+rm folder2/folder1
+rm -r folder2/folder1
+ll folder2
+sync -avz folder1/ folder2
+rsync -avz folder1/ folder2
+ll folder2
+clear
+cp .history git > 2020-11-17.txt
+ls -lsa
+clear
+ll git
+ls -lsa git
+gedit .history
+history
+clear
+history > git/2020-11-17.txt
+cd git
+ll
+ls -lsa
+rm .history
+ls -lsa
+cd ..
+clear
+ll git
+clea
+clear
+ll
+clear
+mv KSCHOOL git
+ll
+ll git
+clear
+ll git/KSCHOOL
+git status
+clear
+cd git
+clear
+ls -a
+cat .git
+gedit .git
+clear
+cd .git
+ls
+cd
+cd git
+clear
+ls
+git status
+git add 2020-11-17.txt
+git status
+git -m commit "My first history"
+git push origin master
+git config credential.helper store
+git push origin master
+clear
+cd ..
+cd Data
+cd shell
+ll
+wc Text_example.txt
+head -n 8 Text_example.txt
+wc "Hello world"
+clear
+echo "Hello World" | wc
+echo -n "Hello World" | wc
+cat Text_example.txt | wc
+cat Text_example.txt | wc -|\
+exit
+cd Data
+cd shell
+cat Text_example.txt
+cat Text_example.txt | wc -|\
+\
+wc Text_example.txt
+tail -c -1k optd_aircraft.csv|wc
+head -c 1K optd_aircraft.csv | wc
+ls
+cd .
+cd ..
+ls
+cd opentraveldata
+ls
+head -c 1K optd_aircraft.csv | wc
+cd ..
+ls -sSlr opentraveldata | tail -n 1 > largest_file.txt
+cd ..
+mv Data/largest_file.txt largest_file.txt
+ls
+cat largest_file.txt
+cd Data
+ls
+cd shell
+ls
+wc Finn.txt
+head -n Finn.txt | wc
+head -5 Finn.txt | wc
+cat Text_example.txt | head -3
+cat -n Text_example.txt | head -3
+head -5 Finn.txt | wc -w
+cd
+cat -n Data/shell/Text_example.txt | head -3 > Text_example_rows.txt
+cat Text_example_rows.txt
+cp Data/shell/Text_example.txt Text_example.txt
+ls
+wc Text_example.txt
+cp Data/shell/Text_example.txt >> Text_example.txt
+Text_example.txt >> Text_example.txt
+cp Text_example.txt >> Text_example.txt
+cp Text_example.txt Text_example.txt
+cp Text_example.txt >> Text_example.txt
+gedit .history
+cat Text_example.txt >> Text_example.txt
+cat Data/shell/Text_example.txt >> Text_example.txt
+wc Text_example.txt
+clear
+history | grep rsync
+cat ~/.history | grep rsync
+cat ~/.history | grep release
+cat ~/.history | grep rsync
+rsync -avz folder1 folder2
+ll folder2
+rm -r folder1
+ll folder1
+clear
+timestamp
+cat ~/.history | grep time
+cat ~/.history | grep stamp
+cat ~/.history | grep date
+date
+cat ~/.history | grep user
+user.name
+clear
+whoami
+echo "This file was created by " + whoami + " on: " + date > timestamp_user.txt
+cat timestamp_user.txt
+echo "This file was created by " whoami " on: " date > timestamp_user.txt
+cat timestamp_user.txt
+echo "This file was created by " $whoami " on: " $date > timestamp_user.txt
+cat timestamp_user.txt
+echo "This file was created by " $(whoami) " on: " $(date) > timestamp_user.txt
+cat timestamp_user.txt
+echo "This file was created by" $(whoami) " on:" $(date) > timestamp_user.txt
+cat timestamp_user.txt
+echo "This file was created by" $(whoami) "on:" $(date) > timestamp_user.txt
+cat timestamp_user.txt
+clear
+cat ~/.history | tail -n 20 > last_20_history.txt
+cat last_20_history.txt
+clear
+find Text_example.txt
+location Text_example.txt
+clear
+cat Data/shell/Text_example.tx
+cat Data/shell/Text_example.txt
+cat Data/shell/Text_example.txt | head -n+2 tail -n+3
+cat Data/shell/Text_example.txt | head -n+2 | tail -n+3
+cat Data/shell/Text_example.txt | head -n+2
+cat Data/shell/Text_example.txt | head -n-2
+cat Data/shell/Text_example.txt | head -n+3
+cat Data/shell/Text_example.txt | tail -n+2
+cat Data/shell/Text_example.txt | tail -n+3
+cat Data/shell/Text_example.txt | tail -n+3 | head -n+4
+cat Data/shell/Text_example.txt | tail -n+3 | head -n 2
+clear
+wc man
+man wc
+wc -l Data/opentraveldata/optd_aircraft.csv
+cat Data/opentraveldata/optd_aircraft.csv | wc -l
+clear
+cp $HISTFILE git/2020-11-17.txt
+cd git
+mv 2020-11-17.txt KSCHOOL/01.\ Introduction
+ll KSCHOOL/01.\ Introduction
+ls
+git add KSCHOOL/
+git -m commit "New course folder"
+git push origin master
+git status
+pwd
+ls
+git remote add origin https://github.com/caresppen/KSCHOOL.git
+origin
+remote origin
+git remote set-url origin https://github.com/caresppen/KSCHOOL.git
+ls
+cd KSCHOOL
+ls
+git add .
+git status
+ls
+ls -la
+cd 01.\ Introduction
+ls
+git reset
+git status
+ls
+git add .
+git status
+cd ..
+ls
+git reset
+git add .
+git status
+git -m commit "Add Introduction section"
+git push origin master
+git status
+git push origin master
+git status
+git push origin master
+git status
+clear
+git status
+git add .
+git status
+git -m commit "Add Introduction section"
+git commit -m "Add Introduction section"
+git push origin master
+git rm KSCHOOL
+git rm KSCHOOL/
+ls
+git rm 01.\ Introduction/
+git rm -r 01.\ Introduction/
+git commit -m "Deleting files"
+git status
+cd ..
+git status
+git reset
+git rm -r KSCHOOL/
+git commit -m "Removing files"
+git push origin master
+cd 
+cd git
+ls
+cat ~/.history | grep rm
+mkdir KSCHOOL
+LS
+ls
+cd KSCHOOL
+mkdir 01.Introduction
+ls
+cd 01.Introduction
+cat ~/.history > 2020-11-17.txt
+ls
+ll
+clear
+cd
+cd git
+git rm -r KSCHOOL
+git add README.md
+git status
+ll
+cat ~/.history | grep git
+git remote set-url origin https://github.com/caresppen/KSCHOOL.git
+git add README.md
+git status
+git commit -m "README"
+git push origin master
+ls
+cd KSCHOOL
+ls
+git add .
+git status
+git commit -m "Introduction"
+git push origin master
+cat ~/.history > 2020-11-11 | head -n 270
+cat ~/.history | head -n 270 > 2020-11-11.txt
+ls
+rm 2020-11-11
+ls
+mv 2020-11-11.txt 01.Introduction
+ls
+cat ~/.history | head -n 413 > 2020-11-12.txt
+ls
+mv 2020-11-12.txt 01.Introduction
+ls
+git add .
+git commit -m "Introduction to terminal"
+git push origin master
+exit
+echo @$date@
+clear
+echo "$date"
+clear
+ls
+echo 'echo "hola \nmundo"' > holamundo.sh
+ll
+ls -lrth | tail -n 1
+vim holamundo.sh
+cat golamundo.sh
+cat holamundo.sh
+bash holamundo.sh
+~/holamundo.sh
+chmod +x holamundo.sh
+~/holamundo.sh
+ls -lrth \ tail -n 1
+ls -lrth | tail -n 1
+bash holamundo.sh
+vim holamundo.sh
+ll
+vim holamundo.sh
+gedit holamundo.sh
+clear
+vim holamundo.sh
+clear
+gedit $HISTFILE
+echo 'print("Hello world")' > hello_world.py
+ll
+chmod +x hello_world.py
+ls -lrth | tail -n 1
+vim hello_world.py
+python hello_world.py
+~/hello_world.py
+ls
+vim hello_world.py
+clear
+whoami
+sudo usermod -l caresppen dsc
+whoami
+git remote add origin https://github.com/rgomezh/campechano.git
+git status
+clear
+cd git
+ls
+mkdir shell_project
+ls
+git branch -M main
+ls
+cd
+ls
+cd Data
+cd shell
+ls
+cd
+clear
+cat -n Data/shell/Text_example.txt | head -n 3 > text_example_3.txt
+cat text_example_3.txt
+mv text_example_3.txt 001.sh
+001.sh
+ls
+cat text_example_3.txt
+cat -n Data/shell/Text_example.txt | head -n 3 > 001.sh
+ls
+clear
+cat 001.sh
+cat -n Data/shell/Text_example.txt | head -n 3 > 001.out
+echo 'cat -n Data/shell/Text_example.txt' | head -n 3 > 001.out
+cat -n Data/shell/Text_example.txt | head -n 3 > 001.out
+echo 'cat -n Data/shell/Text_example.txt' | head -n 3 > 001.sh
+cat 001.sh
+echo 'cat -n Data/shell/Text_example.txt | head -n 3' | head -n 3 > 001.sh
+cat 001.sh
+cat 001.out
+clear
+git clone github.com/rgomezh/campechano.git
+cd git
+git clone github.com/rgomezh/campechano.git
+git status
+clear
+git clone https://github.com/rgomezh/campechano.git
+git status
+clear
+cd campechano
+ls
+cat README.md
+cd
+gitstatus
+git status
+clear
+git checkout -b ejercicio3
+git status
+mv 001.out git/campechano/
+ls
+cp git/campechano/001.out 001.out
+ls
+cd git
+ls
+rm -r campechano
+rm -rf campechano
+ls
+rm -rf shell_project
+ls
+cd
+git clone https://github.com/rgomezh/campechano.git
+ls
+cp 001.out campechano
+cp 001.sh campechano
+ls
+cd campechano
+ls
+clear
+git status
+git checkout -b ejercicio3
+git status
+git add .
+git commit -m "ejercicio3"
+git status
+git push origin ejercicio3
+clear
+touch 006.sh
+vim 006.sh
+cd
+cd campechano
+ls
+rm 006.sh
+cd
+touch 006.sh
+vim 006.sh
+age = 5
+006.sh
+~/006.sh
+chmod +x 006.sh
+~/006.sh
+vim 006.sh
+~/006.sh
+nano 006.sh
+clear
+ls
+chmod +x 001.sh
+ls
+cd campechano
+ls
+chmod +x 001.sh
+ls
+clear
+cd
+git checkout -b ejercicio6
+git status
+clear
+ls
+cat ~/006.sh
+~/006.sh
+~/006.sh > 006.out
+ls 006.out
+06.out
+006.out
+ls
+bash 006.out
+cat 006.out
+cat 006.sh
+cp 006.sh campechano
+cp 006.out campechano
+cd campechano
+ls
+git add 001.sh
+git add 001.out
+git status
+git add 006.out
+git add 006.sh
+git status
+git commit -m "Add exercise 006"
+git push origin ejercicio3
+git rm 006.sh
+git status
+git rm 006.out
+ls
+git status
+ls
+mv 001.out 003.out
+mv 001.sh 003.sh
+ls
+git status
+git rm 001.sh
+git rm 001.out
+git add 003.out
+git add 003.sh
+git status
+git commit -m "Update ejercicio3"
+git push origin ejercicio3
+git checkout -b ejercicio6
+git status
+clear
+git add 00
+clear
+ls
+cd
+ls
+cp 006.sh campechano
+cp 006.out campechano
+cd campechano
+ls
+git add 006.out
+git add 006.sh
+git status
+git commit -m "Add ejercicio6"
+git push origin ejercicio6
+clear
+~/.history > 2020-11-18.txt
+cp ~/.history > 2020-11-18.txt
+cat ~/.history > 2020-11-18.txt
+head -5 2020-11-18.txt
+tail -5 2020-11-18.txt
+clear
+ls
+mv 2020-11-18.txt git/KSCHOOL/01.Introduction
+cd git/KSCHOOL/01.Introduction
+ls
+git origin https://github.com/caresppen/KSCHOOL
+git --help
+git status
+git add 2020-11-18.txt
+git commit -m "Add history 2020-11-18"
+git push origin master
+git push origin main
+git checkout -b master
+git add 2020-11-18.txt
+git commit -m "Add history 2020-11-18"
+git push origin main
+git push origin master
+exit
+tail -3~/.history
+tail -3 ~/.history
+exit
+echo $USER
+echo $(date)
+echo '#!/bin/bash\n#$USER $(date)'  
+echo '#!/bin/bash\n'"#$USER $(date)"  
+cd campechano
+git status
+git checkout -b test
+git status
+test_hacker.sh
+cd
+echo "" > test_hacker.sh
+chmod +x text_hacker.sh
+ls
+chmod +x test_hacker.sh
+ls
+clear
+cp test_hacker.sh campechano/
+git checkout -b test
+
+
+cd campechano
+ls
+test_hacker.sh
+bash test_hacker.sh
+vim test_hacker.sh
+git add test_hacker.sh
+git status
+git commit -m "Add test"
+git push origin test
+clear
+git origin https://github.com/caresppen/campechano
+ls
+git status
+git pull test
+cd
+ls
+cd campechano
+git checkout -b ejercicio6
+git status
+git checkout ejercicio6
+git status
+git pull ejercicio6
+cd
+ls
+~/006.sh
+gedit 006.sh
+cd campechano
+ls
+git status
+rm 003.out 003.sh
+ls
+git add 006.out 006.sh
+git status
+git add --all
+git status
+git commit -m "Delete 003"
+git push origin ejercicio6
+ls
+gedit 006.out
+gedit 006.sh
+006.sh
+./006.sh
+gedit 006.sh
+./006.sh
+gedit 006.sh
+./006.sh
+gedit 006.sh
+./006.sh
+cat 006.out
+gedit 006.sh
+./006.sh
+cat 006.out
+git add 006.sh 006.out
+git status
+ls
+rm 1
+ls
+clear
+git status
+git commit -m "Update 006"
+git push origin ejercicio6
+clear
+git checkout master
+git status
+git cehckout -b test
+git checkout -b test
+git checkout test
+ls
+git add test_hacker.sh
+git status
+git add test_hacker.sh
+git status
+cd
+ls
+gedit test_hacker.sh
+cd campechano
+git pull origin master
+cd campechano
+git status
+git reset
+git checkout ejercicio3
+git checkout master
+git checkout ejercicio3
+git stash
+git status
+git reset
+git checkout ejercicio3
+ls
+git add 003.sh
+git status
+gedit 003.sh
+git add 003.sh
+git status
+gedit 003.sh
+gedit 003.out
+git add 003.sh
+git status
+git add 003.out
+git status
+git commit -m "Update 003.out"
+git push origin ejercicio3
+git checkout master
+ls
+cd
+ls
+cd campechano
+ls
+gedit 001.out
+gedit 001.sh
+ls
+cd campechano
+ls
+./.history
+cd
+~/.history
+$HISTFILE
+ls -a
+gedit .Rhistory
+~/.history
+ll
+ll ~/.history
+chmod +x ~/.history
+ll ~/.history
+chmod -x +rw ~/.history
+chmod -x ~/.history
+chmod +rw ~/.history
+ls
+ll ~/.history
+~/.history
+git checkout master
+git exit
+git init
+cd campechano
+git pull master
+git init
+git pull master
+ls
+cd
+touch 003.sh
+gedit 003.sh
+ls
+chmod +x 003.sh
+touch 003.out
+gedit 003.out
+./003.sh > 003.out
+ls
+cat 003.out
+cp 003.sh campechano
+cp 003.out campechano
+cp 003.sh campechano/
+cp 003.out campechano/
+cd campechano
+ls
+git checkout ejercicio3
+git checkout -b ejercicio3
+git checkout ejercicio3
+rm 003.out 003.sh
+ls
+git checkout ejercicio3
+ls
+git add 003.sh 003.out
+git status
+git add 003.sh
+git status
+ls
+git add --all
+git status
+git reset
+git status
+ls
+git checkout master
+git pull master
+git pull campechano
+git pull campechano/
+git pull https://github.com/rgomezh/campechano
+ls
+git checkout ejercicio3
+ls
+git checkout master
+cd
+git stauts
+git status
+git checkout master
+cd campechano
+cd
+git pull https://github.com/rgomezh/campechano
+cd campechano
+git checkout ejercicio3
+git ls
+git branch -d ejercicio3
+git checkout master
+git branch -d ejercicio3
+git branch -D ejercicio3
+git checkout -b ejercicio3
+cd
+cp 003.sh campechano
+cp 003.out campechano/
+cp 003.sh campechano/
+cd campechano
+ls
+git add 003.out 003.sh
+git status
+git commit -m "Adding files"
+git push origin ejercicio3
+ls
+cd
+git branch -d test
+git branch -D test
+git status
+git reset
+git branch -D test
+git checkout master
+git checkout main
+git status
+gedit .history
+clear
+cd campechano
+git checkout master
+git pull https://github.com/rgomezh/campechano
+ls
+cd
+git branch -a
+git status
+git reset
+git push origin --delete test
+git checkout master
+git pull origin master
+clear
+cd campechano
+git pull origin master
+git pull origin test
+cd
+git pull origin test
+git add *
+git add .
+clear
+git clone https://github.com/rgomezh/campechano
+ls
+rm -r campechano
+rm -rf campechano
+ls
+git clone https://github.com/rgomezh/campechano
+cd campechano
+ls
+cd
+git checkout -b trial
+git branch -d test
+git branch -D test
+git checkout test
+git checkout master
+git rm --cached
+git checkout master
+git rm --cached
+git rm --cached .
+git checkout test
+git checkout master
+ls
+LS
+ls
+clear
+git checkout master
+git branch -a
+git branch -d test
+git branch -D test
+cd campechano
+ls
+cd
+git checkout test
+ls
+cd campechano
+ls
+cd
+clear
+ls
+git init
+cd campechano
+cd
+git branch -a
+cd remotes
+git branch -d test
+git branch -D test
+git branch -D remotes/origin/master
+git status
+cd git
+ls
+git init
+clear
+git branch -a
+git branch -d main
+clear
+git branch -a
+git push origin --delete origin/main 
+git push origin --delete origin/master
+cd
+cd campechano
+git branch -a
+ls
+git checkout test
+ls
+git checkout master
+clear
+cd
+git branch -a
+git push origin --delete origin/test
+git branch -d test
+git pull campechano
+git branch -a
+git branch -r
+clear
+cd git
+git status
+cd
+cd campechano
+git status
+git checkout ejercicio3
+git checkout master
+git checkout ejercicio3
+ls
+git checkout master
+ls
+clear
+cd
+cd git
+ls
+cd KSCHOOL
+ls
+cd 01.Introduction
+ls
+cat ~/.history > 2020-11-19.txt
